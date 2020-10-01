@@ -1,0 +1,27 @@
+header {
+    background-color: black;
+    height: 50px;
+    width: 99%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
+}
+.menu span {
+    padding: 10px;
+    font-size: 20px;
+}
+#logo {
+    padding: 10px;
+    font-size: 30px;
+}
