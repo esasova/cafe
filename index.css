@@ -93,6 +93,9 @@ header {
     text-align: center;
     line-height: 120%;
 }
+.info div:last-child {
+    margin-top: 7.5%;
+}
 
 #second-image {
     width: 100%;
