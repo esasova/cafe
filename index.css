@@ -16,19 +16,23 @@ header {
     left: 0;
     color: white;
     margin: 0;
+    z-index: 1;
 }
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
-.menu span {
+.menu button {
     padding: 10px;
     font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: black solid;
 }
-.menu span:first-child {
-    background-color: gray;
-    padding:;
+.menu button:hover {
+    background-color: lightgray;
 }
 #logo {
     padding: 10px;
